@@ -23,9 +23,16 @@ def shift_with_args(arr)
 end
 
 def using_concat(arr, con)
-  arr.concat
+  arr.concat(con)
 end
-  
+
+def using_insert(arr, element)
+  arr.insert(element)
+end
+
+def using_uniq(arr)
+  arr.uniq
+end  
 def using_delete_at(arr, num)
   arr.delete_at(num)
 end
