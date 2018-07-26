@@ -32,7 +32,11 @@ end
 
 def using_uniq(arr)
   arr.uniq
-end  
+end
+
+def using_flatten(arr)
+  arr.flatten
+end
 def using_delete_at(arr, num)
   arr.delete_at(num)
 end
